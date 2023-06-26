@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/dashboard.css";
 import SingleCard from "../components/reuseable/SingleCard";
 
-import MileChart from "../charts/MileChart";
+import MileChart from "../charts/MileCharts";
 import CarStatsChart from "../charts/CarStatsChart";
 import RecommendCarCard from "../components/UI/RecommendCarCard";
 
