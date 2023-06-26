@@ -5,7 +5,7 @@ import car3 from "../images/mini-car-03.png";
 const recommendCars = [
   {
     id: "01",
-    carName: "Mini Cooper",
+    carName: "Porsche 911 Carrera",
     rentPrice: 32,
     retweet: "132",
     imgUrl: car1,
@@ -21,7 +21,7 @@ const recommendCars = [
   },
   {
     id: "03",
-    carName: "Porsche 911 Carrera",
+    carName: "Mini Cooper",
     rentPrice: 28,
     retweet: "130",
     imgUrl: car3,
