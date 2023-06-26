@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Dashboard.css";
 import SingleCard from "../components/reuseble/SingleCard";
+import MileCharts from "../charts/MileCharts";
+import CarStatsChart from "../charts/CarStatsChart";
 
 const carObj = {
   title: "Total Cars",
@@ -34,6 +36,16 @@ const Dashboard = () => {
           <SingleCard item={tripObj} />
           <SingleCard item={clientObj} />
           <SingleCard item={distanceObj} />
+        </div>
+        <div className="statics">
+          <div className="stats">
+            <h3 className="stats__title">Miles Statics</h3>
+            <MileCharts />
+          </div>
+          <div className="stats">
+            <h3 className="stats__title">Car Statistics</h3>
+            <CarStatsChart />
+          </div>
         </div>
       </div>
     </div>
